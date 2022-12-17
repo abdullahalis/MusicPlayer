@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Zinda Music Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+</head>
+<body>
+    <span class="dot"></span>
+    <!--display Zinda logo-->
+    <img class = "zinda-logo" src = "Images/Control/ZINDA.svg"></img>
+    <!--display track list-->
+    <div class="track-details-text">
+        <div class="empty"></div>
+        <div class="title">Title</div>
+        <div class="key">Key</div>
+        <div class="bpm">BPM</div>
+        <div class="length">Length</div>
+    </div>
+    <div class="tracks-container" >
+        <div class="track">
+            <div class="playAndPic">
+                <img class="play-pause" id = "0 "src = "Images/Control/play-alt 2.svg" ></img>
+                <img class="track-art" src = "Images/Track-Art/maybe_another_time.jpg"></img>
+            </div>
+            
+            <div class="track-info">
+                <span class="track-name">Track Name</span>
+                <span class="track-key">Key Ab min</span>
+                <span class="track-bpm">140</span>
+                <span class="track-length">2:00</span>
+            </div>
+        </div>
+        <div class="track">
+            <div class="playAndPic">
+                <img class="play-pause" id = "1" src = "Images/Control/play-alt 2.svg" ></img>
+                <img class="track-art" src = "Images/Track-Art/maybe_another_time.jpg"></img>
+            </div>
+            
+            <div class="track-info">
+                <span class="track-name">Track Name</span>
+                <span class="track-key">Key Ab min</span>
+                <span class="track-bpm">140</span>
+                <span class="track-length">2:00</span>
+            </div>
+        </div>
+        <div class="track">
+            <div class="playAndPic">
+                <img class="play-pause" id = "2" src = "Images/Control/play-alt 2.svg"></img>
+                <img class="track-art" src = "Images/Track-Art/maybe_another_time.jpg"></img>
+            </div>
+            
+            <div class="track-info">
+                <span class="track-name">Track Name bee</span>
+                <span class="track-key">Key Ab min</span>
+                <span class="track-bpm">140</span>
+                <span class="track-length">2:00</span>
+            </div>
+        </div>
+        <div class="track">
+            <div class="playAndPic">
+                <img class="play-pause" id = "3" src = "Images/Control/play-alt 2.svg"></img>
+                <img class="track-art" src = "Images/Track-Art/maybe_another_time.jpg"></img>
+            </div>
+            
+            <div class="track-info">
+                <span class="track-name">Track Name bee</span>
+                <span class="track-key">Key Ab min</span>
+                <span class="track-bpm">140</span>
+                <span class="track-length">2:00</span>
+            </div>
+        </div>
+        <div class="track">
+            <div class="playAndPic">
+                <img class="play-pause" id = "4" src = "Images/Control/play-alt 2.svg"></img>
+                <img class="track-art" src = "Images/Track-Art/maybe_another_time.jpg"></img>
+            </div>
+            
+            <div class="track-info">
+                <span class="track-name">Track Name bee</span>
+                <span class="track-key">Key Ab min</span>
+                <span class="track-bpm">140</span>
+                <span class="track-length">2:00</span>
+            </div>
+        </div>
+        <div class="track">
+            <div class="playAndPic">
+                <img class="play-pause" id = "5" src = "Images/Control/play-alt 2.svg"></img>
+                <img class="track-art" src = "Images/Track-Art/maybe_another_time.jpg"></img>
+            </div>
+            
+            <div class="track-info">
+                <span class="track-name">Track Name bee</span>
+                <span class="track-key">Key Ab min</span>
+                <span class="track-bpm">140</span>
+                <span class="track-length">2:00</span>
+            </div>
+        </div>
+        <div class="track">
+            <div class="playAndPic">
+                <img class="play-pause" id = "6" src = "Images/Control/play-alt 2.svg"></img>
+                <img class="track-art" src = "Images/Track-Art/maybe_another_time.jpg"></img>
+            </div>
+            
+            <div class="track-info">
+                <span class="track-name">Track Name bee</span>
+                <span class="track-key">Key Ab min</span>
+                <span class="track-bpm">140</span>
+                <span class="track-length">2:00</span>
+            </div>
+        </div>
+        <div class="track">
+            <div class="playAndPic">
+                <img class="play-pause" id = "7" src = "Images/Control/play-alt 2.svg"></img>
+                <img class="track-art" src = "Images/Track-Art/maybe_another_time.jpg"></img>
+            </div>
+            
+            <div class="track-info">
+                <span class="track-name">Track Name bee</span>
+                <span class="track-key">Key Ab min</span>
+                <span class="track-bpm">140</span>
+                <span class="track-length">2:00</span>
+            </div>
+        </div>
+        <div class="track">
+            <div class="playAndPic">
+                <img class="play-pause" id = "8" src = "Images/Control/play-alt 2.svg"></img>
+                <img class="track-art" src = "Images/Track-Art/maybe_another_time.jpg"></img>
+            </div>
+            
+            <div class="track-info">
+                <span class="track-name">Track Name bee</span>
+                <span class="track-key">Key Ab min</span>
+                <span class="track-bpm">140</span>
+                <span class="track-length">2:00</span>
+            </div>
+        </div>
+    </div>
+    <!-- display player-->
+    <div class="player">
+        <div class="top-player">
+                <!-- display details of current track-->
+            <div class="track-info-player">
+                <img class="track-art" id = "currTrackArt"></img>
+                <div class="curr-track-name" id = "currTrackName">Track Name</div>
+            </div>
+
+            <!-- display buttons-->
+            <div class="controls">
+                <img class = "prev-track" id = "previous" src = "Images/Control/previous-track.svg"></img>
+                <img class = "play-button" id = "masterPlay" src = "Images/Control/play.svg"></img>
+                <img class = "next-track" id = "next" src = "Images/Control/next-track.svg"></img>
+            </div>
+        </div>
+        <div class="bottom-player">
+            <div class="curr-time" id = "currTime">0:00</div>
+            <!-- display time seek slider-->
+            <input class="seek_slider" id = "progressBar" type="range" min="0" max="100" value="0">
+            <div class="total-time" id ="totalTime">0:00</div>
+            
+        </div>
+
+        
+    </div>
+   
+
+    <!--load script-->
+    <script src="main.js"></script>
+</body>
+</html>
+
